@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Raleway');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1459539235056-5045ca20e525?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=42ace4ed912d7d494a4385258572a682&auto=format&fit=crop&w=1500&q=80");
+
+  height: 100%;
+  width: 100%;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  display: table;
+  top: 0;
+}
+
+.text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  max-width: none;
+  color: #0a3644;
+}
+
+#timer {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 600%;
+}
+
+#butt {
+  cursor: pointer;
+  background: none;
+  
+  font-family: 'Julius Sans One', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+  
+  padding: 10px 20px;
+  border: solid #274b56 2px;
+  border-radius: 10px;
+}
+
+#butt:hover {
+  border-color: #3f7687;
+  color: #3f7687;
+}
