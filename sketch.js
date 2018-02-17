@@ -75,7 +75,7 @@ function notifyMe() {
 }
 
   document.getElementById('timer').innerHTML = m + ':' + s;
-  }, 10);
+  }, 1000);
   }
   w = -1;
 }
